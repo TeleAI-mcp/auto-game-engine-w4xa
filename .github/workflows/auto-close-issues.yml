@@ -2,7 +2,7 @@ name: Auto Close Labeled Issues
 
 on:
   issues:
-    types: [labeled]
+    types: [opened, labeled]
 
 jobs:
   auto-close-issues:
